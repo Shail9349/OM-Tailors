@@ -50,6 +50,12 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
 }
 
 .logo h1 {
@@ -501,5 +507,13 @@ footer {
     
     .hero h2 {
         font-size: 2.5rem;
+    }
+    
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+    
+    .logo-img {
+        height: 40px;
     }
 }
