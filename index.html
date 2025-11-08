@@ -3,237 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Om Tailors - Premium Custom Tailoring</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Om Tailors in Najafgarh, Delhi offers premium custom tailoring for gents wear. We specialize in perfect fits, modern designs, and traditional craftsmanship.">
-    <meta name="keywords" content="om tailors, tailors in delhi, tailor shop near me, tailors in najafgarh, custom tailoring, gents wear, premium tailoring">
-
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Om Tailors - Premium Custom Tailoring in Delhi">
-    <meta property="og:description" content="Om Tailors in Najafgarh, Delhi offers premium custom tailoring for gents wear. Perfect fits, modern designs, and traditional craftsmanship.">
-    <meta property="og:image" content="https://yourwebsite.com/favicon-512x512.png">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card (for better previews on Twitter/X) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Om Tailors - Premium Custom Tailoring in Delhi">
-    <meta name="twitter:description" content="Premium custom tailoring services in Najafgarh, Delhi. Perfect fits, gents wear, and exclusive designs.">
-    <meta name="twitter:image" content="https://yourwebsite.com/favicon-512x512.png">
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!-- Fonts & Icons -->
+    <title>Shail Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Header & Navigation -->
-<header>
-    <div class="container header-content">
-        <div class="logo" onclick="window.scrollTo(0,0); location.reload();">
-            <img src="logo.png" alt="Om Tailors Logo" class="logo-img" onerror="this.style.display='none'">
-            <h1>Om <span>Tailors</span></h1>
-        </div>
-        <button class="mobile-menu-btn">
-            <i class="fas fa-bars"></i>
-        </button>
-        <nav>
-            <ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" id="home-link">Shail Kumar</div>
+            <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Go to Top Button -->
+    <div class="go-top" id="goTop">
+        <i class="fas fa-chevron-up"></i>
     </div>
-</header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container hero-content">
-            <h2>Premium Custom Tailoring for Men & Kids</h2>
-            <p>With over 17 years of experience in creating exceptional custom clothing.</p>
-            <a href="#contact" class="btn">Book a Consultation</a>
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>We offer a wide range of tailoring services to meet your specific needs and preferences.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>Gents Wear</h3>
-                        <p>Custom shirts, pants, and formal wear tailored to your exact measurements with premium fabrics.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>Traditional Wear</h3>
-                        <p>Elegant kurta pajamas and traditional outfits crafted with attention to detail and comfort.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>School & Job Dresses</h3>
-                        <p>Durable and comfortable uniforms for school and work environments.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>Alterations & Fitting</h3>
-                        <p>Professional shirt pant raffu, fitting adjustments, waist fitting, and narrow pant tailoring services.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>Lakhani Shirts</h3>
-                        <p>Specialized in crafting premium Lakhani shirts with exquisite detailing and perfect fit.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="service-content">
-                        <h3>Custom Fitting</h3>
-                        <p>Expert waist fitting, narrow pant styling, and personalized adjustments for the perfect fit.</p>
-                    </div>
-                </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Shail Kumar</span></h1>
+            <h2>Full Stack Developer</h2>
+            <p>I create innovative digital solutions with clean code and modern technologies</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
             </div>
         </div>
     </section>
-
-    <!-- Floating Contact Buttons -->
-    <div class="floating-buttons">
-        <!-- Call Button -->
-        <a href="tel:+919971174965" class="call-float" title="Call 9971174965">
-            <i class="fas fa-phone"></i>
-        </a>
-
-        <!-- WhatsApp Button -->
-        <a href="https://wa.me/919971174965?text=Hello%20Om%20Tailors,%20I%20want%20to%20book%20a%20fitting%20%2F%20Tailoring%20for%20Shirt-Pant." 
-           target="_blank" 
-           class="whatsapp-float" 
-           title="Chat on WhatsApp">
-           <i class="fab fa-whatsapp"></i>
-        </a>
-    </div>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section id="about" class="about">
+        <div class="about-slideshow">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+        </div>
         <div class="container">
-            <div class="section-title">
-                <h2>About Om Tailors</h2>
-                <p>With over 17 years of experience in creating exceptional custom clothing.</p>
-            </div>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Craftsmanship You Can Trust</h3>
-                    <p>At Om Tailors, we take pride in our attention to detail and commitment to quality. With more than 17 years of experience, each garment is carefully crafted to meet our clients' exact specifications and ensure a perfect fit.</p>
-                    <p>Our master tailors combine traditional techniques with modern styling to create clothing that not only looks great but feels comfortable and lasts for years. We specialize in gents wear including shirts, pants, kurta pajamas, school dresses, job uniforms, and exclusive Lakhani shirts.</p>
-                    <p>We work with a wide selection of premium fabrics from around the world, offering you countless options for creating your perfect wardrobe. Our alteration services including shirt pant raffu, fitting adjustments, and waist fitting are renowned for their precision.</p>
-                    <a href="#contact" class="btn">Visit Our Studio</a>
-                </div>
-                <div class="about-img">
-                    <img src="aboutphoto.jpeg" alt="Tailor at work">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process" id="process">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Process</h2>
-                <p>We make custom tailoring simple and enjoyable with our straightforward process.</p>
-            </div>
-            <div class="process-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Consultation</h3>
-                    <p>We discuss your style preferences, fabric choices, and take precise measurements.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Creation</h3>
-                    <p>Our skilled tailors handcraft your garment with attention to every detail.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Fitting</h3>
-                    <p>We schedule a fitting session to ensure the garment meets your expectations.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h3>Delivery</h3>
-                    <p>Your perfectly tailored clothing is ready for pickup or delivery.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>Client Testimonials</h2>
-                <p>Hear what our satisfied customers have to say about our services.</p>
-            </div>
-            <div class="testimonial-grid">
-                <div class="testimonial">
-                    <div class="testimonial-text">
-                        <p>"The shirts I had made at Om Tailors are the best fitting shirts I've ever owned. The attention to detail is remarkable."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-img"></div>
-                        <div class="author-info">
-                            <h4>Rajesh Kumar</h4>
-                            <p>Business Executive</p>
+                    <h3>Passionate Developer & Problem Solver</h3>
+                    <p>Hello! I'm Shail Kumar, a Computer Science graduate from Maharshi Dayanand University passionate about creating digital solutions. I specialize in programming with C/C++, web development using HTML/CSS, and database management with MySQL.</p>
+                    
+                    <p>My technical journey began during my degree program where I developed a strong foundation in software development principles. I've worked on various academic projects that honed my skills in application development using Visual Basic and other technologies.</p>
+                    
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the mountains. I believe in continuous learning and staying updated with the latest industry trends.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="number">50+</span>
+                            <span class="label">Projects Completed</span>
                         </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-text">
-                        <p>"I got my son's school uniforms tailored here, and they're so durable and comfortable. Highly recommend!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-img"></div>
-                        <div class="author-info">
-                            <h4>Priya Singh</h4>
-                            <p>Mother of Two</p>
+                        <div class="stat">
+                            <span class="number">3+</span>
+                            <span class="label">Years Experience</span>
                         </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-text">
-                        <p>"The alterations service saved my favorite suit. Now it fits better than when I first bought it!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-img"></div>
-                        <div class="author-info">
-                            <h4>Michael Thomas</h4>
-                            <p>Software Engineer</p>
+                        <div class="stat">
+                            <span class="number">25+</span>
+                            <span class="label">Happy Clients</span>
                         </div>
                     </div>
                 </div>
@@ -241,147 +91,164 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Gallery</h2>
-                <p>Browse through some of our recent work and fabric selections.</p>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="shopview.jpg" alt="Custom Shirt">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="shopview2.jpg" alt="Tailored Pants">
+                <div class="skill">
+                    <h3>MySQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="shopview3.jpg" alt="Kids Wear">
+                <div class="skill">
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="shopview4.jpg" alt="Alterations">
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="shopview5.jpg" alt="Tailor at Work">
+                <div class="skill">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="shopview6.jpg" alt="Fabric Selection">
+                <div class="skill">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>E-Commerce Platform</h3>
+                <p>Full-stack online shopping platform with user authentication, product catalog, cart system, and payment integration.</p>
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn primary">Live Demo</a>
+                    <a href="#" class="btn secondary">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Library Management System</h3>
+                <p>Database system for libraries with book tracking, member management, borrowing system, and reporting features.</p>
+                <div class="project-tech">
+                    <span>MySQL</span>
+                    <span>C++</span>
+                    <span>VB</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn primary">Live Demo</a>
+                    <a href="#" class="btn secondary">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Weather App</h3>
+                <p>Real-time weather application with location detection, 5-day forecast, and interactive maps.</p>
+                <div class="project-tech">
+                    <span>JavaScript</span>
+                    <span>API</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn primary">Live Demo</a>
+                    <a href="#" class="btn secondary">Source Code</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- More Projects Button -->
+        <div class="more-projects-btn" style="text-align: center; margin-top: 2rem;">
+            <a href="projects.html" class="btn primary" target="_blank">More Projects</a>
+        </div>
+
+    </div>
+</section>
+
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-                <p>Reach out to schedule a consultation or visit our studio.</p>
-            </div>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm currently available for freelance work and new opportunities. Feel free to reach out!</p>
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <h3>Our Location</h3>
-                            <p>PLOT NO-68, RG-BLOCK DHARAMPURA EXTN CHANDER MOHALLA NAJAFGARH, NEW DELHI 110043</p>
-                        </div>
+                        <i class="fas fa-envelope"></i>
+                        <span>Shail1tb2021@gmail.com</span>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <h3>Phone Number</h3>
-                            <p>9971174965</p>
-                        </div>
+                        <i class="fas fa-phone"></i>
+                        <span>+91 98376901331</span>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h3>Email Address</h3>
-                            <p>Sk9971174965@gmail.com</p>
-                        </div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New Delhi, </span>
                     </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div>
-                            <h3>Working Hours</h3>
-                            <p>Monday - Sunday: 8AM - 9PM<br>Open all 7 days</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Google Map Embed -->
-                    <div class="map-container">
-                        <h3>Find Us Here</h3>
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.846347916382!2d76.99569207409299!3d28.604385985360842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0f6ca3851d9d%3A0x44a095cd1dc68e13!2sOM%20Tailors!5e0!3m2!1sen!2sin!4v1758461288746!5m2!1sen!2sin" 
-                            width="100%" 
-                            height="250" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                    <div class="social-links">
+                        <a href="https://github.com/Shail9349" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shailkumar007/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/Shail9349" target="_blank"><i class="fab fa-twitter" ></i></a>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h3>Send us a Message</h3>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4V56I71N3WW-f3RatDPr0-VY6x5d_Iy2TotXtnbk1ZIYUnA/viewform?embedded=true" 
-                            width="100%" 
-                            height="800" 
-                            frameborder="0" 
-                            marginheight="0" 
-                            marginwidth="0">
-                        Loading…
-                    </iframe>
-                </div>
+                <form class="contact-form" action="https://formspree.io/f/xnnlaaao" method="POST" id="contactForm">
+    <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn primary">Send Message</button>
+</form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>Om <span>Tailors</span></h2>
-                    <p>Premium custom tailoring for men and kids. With over 17 years of experience in creating perfect fits.</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#process">Our Process</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                    </ul>
-                </div>
-                <div class="footer-hours">
-                    <h3>Working Hours</h3>
-                    <p>Monday - Sunday: 8AM - 9PM</p>
-                    <p>Open all 7 days</p>
-                </div>
-                <div class="footer-newsletter">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe to get updates on new fabric arrivals and special offers.</p>
-                    <form>
-                        <input type="email" placeholder="Your email address">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 Om Tailors. All rights reserved.</p>
-            </div>
+            <p>&copy; 2025 Shail Kumar. All rights reserved.</p>
         </div>
     </footer>
 
